@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="20.1" WrittenBy="Materials Studio 20.1">
+	<AtomisticTreeRoot ID="1" NumProperties="62" HasProperties="1" NumChildren="1">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_ServerAtomNames" DefinedOn="IndexProvider" Type="String"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Properties PotentialEnergy="-1483982.64512882"/>
+		<SymmetrySystem ID="2" Mapping="3" Children="4,5,6" HasSymmetryHistory="1">
+			<MappingSet ID="7" SymmetryDefinition="4" ActiveSystem="2" NumFamilies="1" OwnsTotalConstraintMapping="0" TotalConstraintMapping="3">
+				<MappingFamily ID="8" NumImageMappings="0">
+					<IdentityMapping ID="3" Element="1,0,0,0,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(452):2,5,450+9" DefectObjects="4,6,459" NumImages="451" NumDefects="3">
+						<Molecule ID="5" Mapping="3" Parent="2" Children="9" Name="phb" UserID="1"/>
+						<Chain ID="9" Mapping="3" Parent="5" Children="ci(299):150+10,149+310"/>
+						<SubUnit ID="10" Mapping="3" Parent="9" Children="160" Name="SLS1" UserID="1"/>
+						<SubUnit ID="11" Mapping="3" Parent="9" Children="161" Name="SLM2" UserID="2"/>
+						<SubUnit ID="12" Mapping="3" Parent="9" Children="162" Name="SLM3" UserID="3"/>
+						<SubUnit ID="13" Mapping="3" Parent="9" Children="163" Name="SLM4" UserID="4"/>
+						<SubUnit ID="14" Mapping="3" Parent="9" Children="164" Name="SLM5" UserID="5"/>
+						<SubUnit ID="15" Mapping="3" Parent="9" Children="165" Name="SLM6" UserID="6"/>
+						<SubUnit ID="16" Mapping="3" Parent="9" Children="166" Name="SLM7" UserID="7"/>
+						<SubUnit ID="17" Mapping="3" Parent="9" Children="167" Name="SLM8" UserID="8"/>
+						<SubUnit ID="18" Mapping="3" Parent="9" Children="168" Name="SLM9" UserID="9"/>
+						<SubUnit ID="19" Mapping="3" Parent="9" Children="169" Name="SLM10" UserID="10"/>
+						<SubUnit ID="20" Mapping="3" Parent="9" Children="170" Name="SLM11" UserID="11"/>
+						<SubUnit ID="21" Mapping="3" Parent="9" Children="171" Name="SLM12" UserID="12"/>
+						<SubUnit ID="22" Mapping="3" Parent="9" Children="172" Name="SLM13" UserID="13"/>
+						<SubUnit ID="23" Mapping="3" Parent="9" Children="173" Name="SLM14" UserID="14"/>
+						<SubUnit ID="24" Mapping="3" Parent="9" Children="174" Name="SLM15" UserID="15"/>
+						<SubUnit ID="25" Mapping="3" Parent="9" Children="175" Name="SLM16" UserID="16"/>
+						<SubUnit ID="26" Mapping="3" Parent="9" Children="176" Name="SLM17" UserID="17"/>
+						<SubUnit ID="27" Mapping="3" Parent="9" Children="177" Name="SLM18" UserID="18"/>
+						<SubUnit ID="28" Mapping="3" Parent="9" Children="178" Name="SLM19" UserID="19"/>
+						<SubUnit ID="29" Mapping="3" Parent="9" Children="179" Name="SLM20" UserID="20"/>
+						<SubUnit ID="30" Mapping="3" Parent="9" Children="180" Name="SLM21" UserID="21"/>
+						<SubUnit ID="31" Mapping="3" Parent="9" Children="181" Name="SLM22" UserID="22"/>
+						<SubUnit ID="32" Mapping="3" Parent="9" Children="182" Name="SLM23" UserID="23"/>
+						<SubUnit ID="33" Mapping="3" Parent="9" Children="183" Name="SLM24" UserID="24"/>
+						<SubUnit ID="34" Mapping="3" Parent="9" Children="184" Name="SLM25" UserID="25"/>
+						<SubUnit ID="35" Mapping="3" Parent="9" Children="185" Name="SLM26" UserID="26"/>
+						<SubUnit ID="36" Mapping="3" Parent="9" Children="186" Name="SLM27" UserID="27"/>
+						<SubUnit ID="37" Mapping="3" Parent="9" Children="187" Name="SLM28" UserID="28"/>
+						<SubUnit ID="38" Mapping="3" Parent="9" Children="188" Name="SLM29" UserID="29"/>
+						<SubUnit ID="39" Mapping="3" Parent="9" Children="189" Name="SLM30" UserID="30"/>
+						<SubUnit ID="40" Mapping="3" Parent="9" Children="190" Name="SLM31" UserID="31"/>
+						<SubUnit ID="41" Mapping="3" Parent="9" Children="191" Name="SLM32" UserID="32"/>
+						<SubUnit ID="42" Mapping="3" Parent="9" Children="192" Name="SLM33" UserID="33"/>
+						<SubUnit ID="43" Mapping="3" Parent="9" Children="193" Name="SLM34" UserID="34"/>
+						<SubUnit ID="44" Mapping="3" Parent="9" Children="194" Name="SLM35" UserID="35"/>
+						<SubUnit ID="45" Mapping="3" Parent="9" Children="195" Name="SLM36" UserID="36"/>
+						<SubUnit ID="46" Mapping="3" Parent="9" Children="196" Name="SLM37" UserID="37"/>
+						<SubUnit ID="47" Mapping="3" Parent="9" Children="197" Name="SLM38" UserID="38"/>
+						<SubUnit ID="48" Mapping="3" Parent="9" Children="198" Name="SLM39" UserID="39"/>
+						<SubUnit ID="49" Mapping="3" Parent="9" Children="199" Name="SLM40" UserID="40"/>
+						<SubUnit ID="50" Mapping="3" Parent="9" Children="200" Name="SLM41" UserID="41"/>
+						<SubUnit ID="51" Mapping="3" Parent="9" Children="201" Name="SLM42" UserID="42"/>
+						<SubUnit ID="52" Mapping="3" Parent="9" Children="202" Name="SLM43" UserID="43"/>
+						<SubUnit ID="53" Mapping="3" Parent="9" Children="203" Name="SLM44" UserID="44"/>
+						<SubUnit ID="54" Mapping="3" Parent="9" Children="204" Name="SLM45" UserID="45"/>
+						<SubUnit ID="55" Mapping="3" Parent="9" Children="205" Name="SLM46" UserID="46"/>
+						<SubUnit ID="56" Mapping="3" Parent="9" Children="206" Name="SLM47" UserID="47"/>
+						<SubUnit ID="57" Mapping="3" Parent="9" Children="207" Name="SLM48" UserID="48"/>
+						<SubUnit ID="58" Mapping="3" Parent="9" Children="208" Name="SLM49" UserID="49"/>
+						<SubUnit ID="59" Mapping="3" Parent="9" Children="209" Name="SLM50" UserID="50"/>
+						<SubUnit ID="60" Mapping="3" Parent="9" Children="210" Name="SLM51" UserID="51"/>
+						<SubUnit ID="61" Mapping="3" Parent="9" Children="211" Name="SLM52" UserID="52"/>
+						<SubUnit ID="62" Mapping="3" Parent="9" Children="212" Name="SLM53" UserID="53"/>
+						<SubUnit ID="63" Mapping="3" Parent="9" Children="213" Name="SLM54" UserID="54"/>
+						<SubUnit ID="64" Mapping="3" Parent="9" Children="214" Name="SLM55" UserID="55"/>
+						<SubUnit ID="65" Mapping="3" Parent="9" Children="215" Name="SLM56" UserID="56"/>
+						<SubUnit ID="66" Mapping="3" Parent="9" Children="216" Name="SLM57" UserID="57"/>
+						<SubUnit ID="67" Mapping="3" Parent="9" Children="217" Name="SLM58" UserID="58"/>
+						<SubUnit ID="68" Mapping="3" Parent="9" Children="218" Name="SLM59" UserID="59"/>
+						<SubUnit ID="69" Mapping="3" Parent="9" Children="219" Name="SLM60" UserID="60"/>
+						<SubUnit ID="70" Mapping="3" Parent="9" Children="220" Name="SLM61" UserID="61"/>
+						<SubUnit ID="71" Mapping="3" Parent="9" Children="221" Name="SLM62" UserID="62"/>
+						<SubUnit ID="72" Mapping="3" Parent="9" Children="222" Name="SLM63" UserID="63"/>
+						<SubUnit ID="73" Mapping="3" Parent="9" Children="223" Name="SLM64" UserID="64"/>
+						<SubUnit ID="74" Mapping="3" Parent="9" Children="224" Name="SLM65" UserID="65"/>
+						<SubUnit ID="75" Mapping="3" Parent="9" Children="225" Name="SLM66" UserID="66"/>
+						<SubUnit ID="76" Mapping="3" Parent="9" Children="226" Name="SLM67" UserID="67"/>
+						<SubUnit ID="77" Mapping="3" Parent="9" Children="227" Name="SLM68" UserID="68"/>
+						<SubUnit ID="78" Mapping="3" Parent="9" Children="228" Name="SLM69" UserID="69"/>
+						<SubUnit ID="79" Mapping="3" Parent="9" Children="229" Name="SLM70" UserID="70"/>
+						<SubUnit ID="80" Mapping="3" Parent="9" Children="230" Name="SLM71" UserID="71"/>
+						<SubUnit ID="81" Mapping="3" Parent="9" Children="231" Name="SLM72" UserID="72"/>
+						<SubUnit ID="82" Mapping="3" Parent="9" Children="232" Name="SLM73" UserID="73"/>
+						<SubUnit ID="83" Mapping="3" Parent="9" Children="233" Name="SLM74" UserID="74"/>
+						<SubUnit ID="84" Mapping="3" Parent="9" Children="234" Name="SLM75" UserID="75"/>
+						<SubUnit ID="85" Mapping="3" Parent="9" Children="235" Name="SLM76" UserID="76"/>
+						<SubUnit ID="86" Mapping="3" Parent="9" Children="236" Name="SLM77" UserID="77"/>
+						<SubUnit ID="87" Mapping="3" Parent="9" Children="237" Name="SLM78" UserID="78"/>
+						<SubUnit ID="88" Mapping="3" Parent="9" Children="238" Name="SLM79" UserID="79"/>
+						<SubUnit ID="89" Mapping="3" Parent="9" Children="239" Name="SLM80" UserID="80"/>
+						<SubUnit ID="90" Mapping="3" Parent="9" Children="240" Name="SLM81" UserID="81"/>
+						<SubUnit ID="91" Mapping="3" Parent="9" Children="241" Name="SLM82" UserID="82"/>
+						<SubUnit ID="92" Mapping="3" Parent="9" Children="242" Name="SLM83" UserID="83"/>
+						<SubUnit ID="93" Mapping="3" Parent="9" Children="243" Name="SLM84" UserID="84"/>
+						<SubUnit ID="94" Mapping="3" Parent="9" Children="244" Name="SLM85" UserID="85"/>
+						<SubUnit ID="95" Mapping="3" Parent="9" Children="245" Name="SLM86" UserID="86"/>
+						<SubUnit ID="96" Mapping="3" Parent="9" Children="246" Name="SLM87" UserID="87"/>
+						<SubUnit ID="97" Mapping="3" Parent="9" Children="247" Name="SLM88" UserID="88"/>
+						<SubUnit ID="98" Mapping="3" Parent="9" Children="248" Name="SLM89" UserID="89"/>
+						<SubUnit ID="99" Mapping="3" Parent="9" Children="249" Name="SLM90" UserID="90"/>
+						<SubUnit ID="100" Mapping="3" Parent="9" Children="250" Name="SLM91" UserID="91"/>
+						<SubUnit ID="101" Mapping="3" Parent="9" Children="251" Name="SLM92" UserID="92"/>
+						<SubUnit ID="102" Mapping="3" Parent="9" Children="252" Name="SLM93" UserID="93"/>
+						<SubUnit ID="103" Mapping="3" Parent="9" Children="253" Name="SLM94" UserID="94"/>
+						<SubUnit ID="104" Mapping="3" Parent="9" Children="254" Name="SLM95" UserID="95"/>
+						<SubUnit ID="105" Mapping="3" Parent="9" Children="255" Name="SLM96" UserID="96"/>
+						<SubUnit ID="106" Mapping="3" Parent="9" Children="256" Name="SLM97" UserID="97"/>
+						<SubUnit ID="107" Mapping="3" Parent="9" Children="257" Name="SLM98" UserID="98"/>
+						<SubUnit ID="108" Mapping="3" Parent="9" Children="258" Name="SLM99" UserID="99"/>
+						<SubUnit ID="109" Mapping="3" Parent="9" Children="259" Name="SLM100" UserID="100"/>
+						<SubUnit ID="110" Mapping="3" Parent="9" Children="260" Name="SLM101" UserID="101"/>
+						<SubUnit ID="111" Mapping="3" Parent="9" Children="261" Name="SLM102" UserID="102"/>
+						<SubUnit ID="112" Mapping="3" Parent="9" Children="262" Name="SLM103" UserID="103"/>
+						<SubUnit ID="113" Mapping="3" Parent="9" Children="263" Name="SLM104" UserID="104"/>
+						<SubUnit ID="114" Mapping="3" Parent="9" Children="264" Name="SLM105" UserID="105"/>
+						<SubUnit ID="115" Mapping="3" Parent="9" Children="265" Name="SLM106" UserID="106"/>
+						<SubUnit ID="116" Mapping="3" Parent="9" Children="266" Name="SLM107" UserID="107"/>
+						<SubUnit ID="117" Mapping="3" Parent="9" Children="267" Name="SLM108" UserID="108"/>
+						<SubUnit ID="118" Mapping="3" Parent="9" Children="268" Name="SLM109" UserID="109"/>
+						<SubUnit ID="119" Mapping="3" Parent="9" Children="269" Name="SLM110" UserID="110"/>
+						<SubUnit ID="120" Mapping="3" Parent="9" Children="270" Name="SLM111" UserID="111"/>
+						<SubUnit ID="121" Mapping="3" Parent="9" Children="271" Name="SLM112" UserID="112"/>
+						<SubUnit ID="122" Mapping="3" Parent="9" Children="272" Name="SLM113" UserID="113"/>
+						<SubUnit ID="123" Mapping="3" Parent="9" Children="273" Name="SLM114" UserID="114"/>
+						<SubUnit ID="124" Mapping="3" Parent="9" Children="274" Name="SLM115" UserID="115"/>
+						<SubUnit ID="125" Mapping="3" Parent="9" Children="275" Name="SLM116" UserID="116"/>
+						<SubUnit ID="126" Mapping="3" Parent="9" Children="276" Name="SLM117" UserID="117"/>
+						<SubUnit ID="127" Mapping="3" Parent="9" Children="277" Name="SLM118" UserID="118"/>
+						<SubUnit ID="128" Mapping="3" Parent="9" Children="278" Name="SLM119" UserID="119"/>
+						<SubUnit ID="129" Mapping="3" Parent="9" Children="279" Name="SLM120" UserID="120"/>
+						<SubUnit ID="130" Mapping="3" Parent="9" Children="280" Name="SLM121" UserID="121"/>
+						<SubUnit ID="131" Mapping="3" Parent="9" Children="281" Name="SLM122" UserID="122"/>
+						<SubUnit ID="132" Mapping="3" Parent="9" Children="282" Name="SLM123" UserID="123"/>
+						<SubUnit ID="133" Mapping="3" Parent="9" Children="283" Name="SLM124" UserID="124"/>
+						<SubUnit ID="134" Mapping="3" Parent="9" Children="284" Name="SLM125" UserID="125"/>
+						<SubUnit ID="135" Mapping="3" Parent="9" Children="285" Name="SLM126" UserID="126"/>
+						<SubUnit ID="136" Mapping="3" Parent="9" Children="286" Name="SLM127" UserID="127"/>
+						<SubUnit ID="137" Mapping="3" Parent="9" Children="287" Name="SLM128" UserID="128"/>
+						<SubUnit ID="138" Mapping="3" Parent="9" Children="288" Name="SLM129" UserID="129"/>
+						<SubUnit ID="139" Mapping="3" Parent="9" Children="289" Name="SLM130" UserID="130"/>
+						<SubUnit ID="140" Mapping="3" Parent="9" Children="290" Name="SLM131" UserID="131"/>
+						<SubUnit ID="141" Mapping="3" Parent="9" Children="291" Name="SLM132" UserID="132"/>
+						<SubUnit ID="142" Mapping="3" Parent="9" Children="292" Name="SLM133" UserID="133"/>
+						<SubUnit ID="143" Mapping="3" Parent="9" Children="293" Name="SLM134" UserID="134"/>
+						<SubUnit ID="144" Mapping="3" Parent="9" Children="294" Name="SLM135" UserID="135"/>
+						<SubUnit ID="145" Mapping="3" Parent="9" Children="295" Name="SLM136" UserID="136"/>
+						<SubUnit ID="146" Mapping="3" Parent="9" Children="296" Name="SLM137" UserID="137"/>
+						<SubUnit ID="147" Mapping="3" Parent="9" Children="297" Name="SLM138" UserID="138"/>
+						<SubUnit ID="148" Mapping="3" Parent="9" Children="298" Name="SLM139" UserID="139"/>
+						<SubUnit ID="149" Mapping="3" Parent="9" Children="299" Name="SLM140" UserID="140"/>
+						<SubUnit ID="150" Mapping="3" Parent="9" Children="300" Name="SLM141" UserID="141"/>
+						<SubUnit ID="151" Mapping="3" Parent="9" Children="301" Name="SLM142" UserID="142"/>
+						<SubUnit ID="152" Mapping="3" Parent="9" Children="302" Name="SLM143" UserID="143"/>
+						<SubUnit ID="153" Mapping="3" Parent="9" Children="303" Name="SLM144" UserID="144"/>
+						<SubUnit ID="154" Mapping="3" Parent="9" Children="304" Name="SLM145" UserID="145"/>
+						<SubUnit ID="155" Mapping="3" Parent="9" Children="305" Name="SLM146" UserID="146"/>
+						<SubUnit ID="156" Mapping="3" Parent="9" Children="306" Name="SLM147" UserID="147"/>
+						<SubUnit ID="157" Mapping="3" Parent="9" Children="307" Name="SLM148" UserID="148"/>
+						<SubUnit ID="158" Mapping="3" Parent="9" Children="308" Name="SLM149" UserID="149"/>
+						<SubUnit ID="159" Mapping="3" Parent="9" Children="309" Name="SLE150" UserID="150"/>
+						<Bead ID="160" Mapping="3" Parent="10" XYZ="15.3443392729723,8.98206563019362,7.86368394511204" Connections="310" ForcefieldType="P4">
+							<BeadType ID="460" Name="SLS1" Color="67,212,70,255" Radius="2.230385" Mass="103.097"/>
+						</Bead>
+						<Bead ID="161" Mapping="3" Parent="11" XYZ="17.0268028454682,5.86292055402424,10.9188772834311" Connections="310,311" ForcefieldType="N0">
+							<BeadType ID="461" Name="SLM2" Color="120,151,125,255" Radius="2.063887" Mass="86.09"/>
+						</Bead>
+						<Bead ID="162" Mapping="3" Parent="12" XYZ="15.2623837679069,1.88452546003908,11.5418067191714" Connections="311,312" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="163" Mapping="3" Parent="13" XYZ="14.9953175356021,-1.11467372996071,14.5092742664458" Connections="312,313" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="164" Mapping="3" Parent="14" XYZ="14.9943313788252,-5.02410430426005,17.3327007213588" Connections="313,314" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="165" Mapping="3" Parent="15" XYZ="15.0545830848863,-4.94674800473395,22.2954801875206" Connections="314,315" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="166" Mapping="3" Parent="16" XYZ="14.6703522133243,-1.52338532655765,25.7673861868321" Connections="315,316" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="167" Mapping="3" Parent="17" XYZ="16.542964147343,2.16161704316768,27.0788547393779" Connections="316,317" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="168" Mapping="3" Parent="18" XYZ="19.5816172624497,1.57582696732035,24.7431903652746" Connections="317,318" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="169" Mapping="3" Parent="19" XYZ="23.581941803625,2.77822983542811,26.1410768143992" Connections="318,319" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="170" Mapping="3" Parent="20" XYZ="28.2967534921299,2.88899614270397,25.8280727717459" Connections="319,320" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="171" Mapping="3" Parent="21" XYZ="32.271281940747,4.31623796499559,25.9879132723956" Connections="320,321" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="172" Mapping="3" Parent="22" XYZ="30.3621011110776,8.01819574918008,26.9846537831279" Connections="321,322" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="173" Mapping="3" Parent="23" XYZ="29.9012114649342,11.2328879722922,23.5262254258098" Connections="322,323" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="174" Mapping="3" Parent="24" XYZ="33.0166626273039,12.9756292075954,24.1878359713715" Connections="323,324" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="175" Mapping="3" Parent="25" XYZ="34.4117816880363,16.8137439390704,25.9169906106155" Connections="324,325" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="176" Mapping="3" Parent="26" XYZ="37.7871092039086,15.8951396050237,29.1428198490925" Connections="325,326" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="177" Mapping="3" Parent="27" XYZ="40.3989323354473,16.7576807107036,33.2587555958163" Connections="326,327" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="178" Mapping="3" Parent="28" XYZ="38.5741203247057,18.3051079707369,36.2259531501416" Connections="327,328" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="179" Mapping="3" Parent="29" XYZ="36.126818588658,21.9299574597282,37.2475528395471" Connections="328,329" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="180" Mapping="3" Parent="30" XYZ="37.7949420543752,21.4287086213175,41.2238458029169" Connections="329,330" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="181" Mapping="3" Parent="31" XYZ="39.8747671198783,20.1168524003974,44.9642517783556" Connections="330,331" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="182" Mapping="3" Parent="32" XYZ="39.992287581588,22.075517723511,48.4183296634813" Connections="331,332" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="183" Mapping="3" Parent="33" XYZ="37.3374249024676,21.5674058289431,51.995905025239" Connections="332,333" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="184" Mapping="3" Parent="34" XYZ="32.7917791672467,20.8622076898737,52.0592399500705" Connections="333,334" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="185" Mapping="3" Parent="35" XYZ="31.4301428552697,17.5300658771398,52.8362864998207" Connections="334,335" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="186" Mapping="3" Parent="36" XYZ="35.171343367346,15.758080287923,50.7997441961617" Connections="335,336" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="187" Mapping="3" Parent="37" XYZ="36.1077249771494,12.3352962163731,52.8335253338925" Connections="336,337" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="188" Mapping="3" Parent="38" XYZ="37.1768123367995,10.2440075235206,57.0352368657206" Connections="337,338" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="189" Mapping="3" Parent="39" XYZ="36.6964608414358,9.23349750672437,61.2096294435854" Connections="338,339" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="190" Mapping="3" Parent="40" XYZ="35.4685809820482,12.736427797402,60.7850297480314" Connections="339,340" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="191" Mapping="3" Parent="41" XYZ="37.5262733873601,14.8385022836387,63.188365928678" Connections="340,341" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="192" Mapping="3" Parent="42" XYZ="33.6423425658437,14.4583229696489,65.3087891952942" Connections="341,342" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="193" Mapping="3" Parent="43" XYZ="32.8839359071955,14.9573442887013,69.5204597642827" Connections="342,343" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="194" Mapping="3" Parent="44" XYZ="29.3561174594388,15.9753998168202,70.7094356782408" Connections="343,344" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="195" Mapping="3" Parent="45" XYZ="28.7115912789251,19.8742642629649,68.0235667156501" Connections="344,345" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="196" Mapping="3" Parent="46" XYZ="28.7763903175832,24.319033535605,66.8488652160689" Connections="345,346" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="197" Mapping="3" Parent="47" XYZ="29.0918368856836,28.6010243554041,65.8790551577055" Connections="346,347" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="198" Mapping="3" Parent="48" XYZ="29.6270464119693,32.291062046118,63.5528565881809" Connections="347,348" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="199" Mapping="3" Parent="49" XYZ="32.4843207448954,33.1773807989544,59.8379375228971" Connections="348,349" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="200" Mapping="3" Parent="50" XYZ="30.5550138984837,32.0233415041752,57.3668477816979" Connections="349,350" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="201" Mapping="3" Parent="51" XYZ="27.673460809536,29.51353934756,59.0284349590117" Connections="350,351" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="202" Mapping="3" Parent="52" XYZ="24.8670381246678,30.301178637671,62.5709327946195" Connections="351,352" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="203" Mapping="3" Parent="53" XYZ="24.4851091550726,33.8914135445031,61.7538770379996" Connections="352,353" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="204" Mapping="3" Parent="54" XYZ="27.1586189263035,37.6625805314752,61.6368566264099" Connections="353,354" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="205" Mapping="3" Parent="55" XYZ="28.9702870881,42.1443869126781,59.7777519484542" Connections="354,355" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="206" Mapping="3" Parent="56" XYZ="32.5271448646262,43.7858414652206,59.9035780133726" Connections="355,356" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="207" Mapping="3" Parent="57" XYZ="32.6993078990723,46.2938183247386,55.8011706126579" Connections="356,357" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="208" Mapping="3" Parent="58" XYZ="34.0663869608148,43.983361793725,52.3308819664708" Connections="357,358" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="209" Mapping="3" Parent="59" XYZ="37.1913797472299,40.9934711897781,51.1609299927331" Connections="358,359" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="210" Mapping="3" Parent="60" XYZ="35.5461486939357,37.7378607637016,51.3604954554798" Connections="359,360" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="211" Mapping="3" Parent="61" XYZ="32.0035511543149,36.9696142115663,48.6416528912366" Connections="360,361" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="212" Mapping="3" Parent="62" XYZ="30.0291820995718,40.3368369760132,50.7393999078221" Connections="361,362" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="213" Mapping="3" Parent="63" XYZ="28.9294595761004,42.5953748926066,48.1654182074936" Connections="362,363" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="214" Mapping="3" Parent="64" XYZ="31.3121605945516,46.2232303500833,46.0535458292403" Connections="363,364" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="215" Mapping="3" Parent="65" XYZ="27.5277044311201,47.6943107714082,46.4623594282785" Connections="364,365" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="216" Mapping="3" Parent="66" XYZ="25.1932008261826,46.3855019579615,42.742122467247" Connections="365,366" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="217" Mapping="3" Parent="67" XYZ="23.3006758623565,45.8804611236683,38.4988457904526" Connections="366,367" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="218" Mapping="3" Parent="68" XYZ="19.9927712147524,48.7144548403752,36.7543332402937" Connections="367,368" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="219" Mapping="3" Parent="69" XYZ="17.4296230637329,49.1599037618045,32.7392964656648" Connections="368,369" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="220" Mapping="3" Parent="70" XYZ="14.9476196829572,50.8002019855398,29.420896300576" Connections="369,370" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="221" Mapping="3" Parent="71" XYZ="12.0527788955048,52.4534190014081,26.4543712734177" Connections="370,371" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="222" Mapping="3" Parent="72" XYZ="9.57929963930611,55.2735254322366,23.5315756112888" Connections="371,372" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="223" Mapping="3" Parent="73" XYZ="6.16274351760467,55.0863850512585,20.9619288095805" Connections="372,373" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="224" Mapping="3" Parent="74" XYZ="4.86071619842455,55.5104386987617,16.5664425647514" Connections="373,374" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="225" Mapping="3" Parent="75" XYZ="1.99144452807466,57.0057148271449,14.0349877125419" Connections="374,375" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="226" Mapping="3" Parent="76" XYZ="3.02156083054982,60.916236158389,13.7976163271205" Connections="375,376" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="227" Mapping="3" Parent="77" XYZ="5.68117637372764,63.6809900606242,16.3950311047678" Connections="376,377" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="228" Mapping="3" Parent="78" XYZ="9.24865676503987,63.2236427144656,15.2931650764097" Connections="377,378" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="229" Mapping="3" Parent="79" XYZ="13.7985687867456,63.1475247154613,14.2935609396455" Connections="378,379" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="230" Mapping="3" Parent="80" XYZ="17.0321027377682,65.758566987045,13.1815308027406" Connections="379,380" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="231" Mapping="3" Parent="81" XYZ="20.0745077320644,68.6227956047074,13.3073911830861" Connections="380,381" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="232" Mapping="3" Parent="82" XYZ="19.3699898157674,70.0456184917886,17.9380186820579" Connections="381,382" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="233" Mapping="3" Parent="83" XYZ="19.2955117452073,74.6540738147927,18.8838329079469" Connections="382,383" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="234" Mapping="3" Parent="84" XYZ="20.8529257368919,75.4295244866661,15.4828629669595" Connections="383,384" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="235" Mapping="3" Parent="85" XYZ="23.367755420343,71.867125643195,14.3882690737838" Connections="384,385" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="236" Mapping="3" Parent="86" XYZ="23.8546845169766,72.4048465280861,18.7138925811005" Connections="385,386" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="237" Mapping="3" Parent="87" XYZ="24.3072408734101,76.2880001916479,20.2752181131485" Connections="386,387" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="238" Mapping="3" Parent="88" XYZ="27.5903816211348,79.4345294092547,20.5175729362172" Connections="387,388" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="239" Mapping="3" Parent="89" XYZ="30.3413349474999,80.0876516866723,16.9330077949516" Connections="388,389" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="240" Mapping="3" Parent="90" XYZ="33.2608699579894,79.4950368194761,13.2663781579271" Connections="389,390" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="241" Mapping="3" Parent="91" XYZ="37.3379535550231,78.6924933135648,10.9391495983179" Connections="390,391" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="242" Mapping="3" Parent="92" XYZ="41.5337875531316,77.2699067984107,9.98259332453713" Connections="391,392" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="243" Mapping="3" Parent="93" XYZ="39.4139741075666,73.7884797424532,8.51802285217905" Connections="392,393" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="244" Mapping="3" Parent="94" XYZ="34.8659309865668,72.003753054323,8.32473906931939" Connections="393,394" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="245" Mapping="3" Parent="95" XYZ="33.5413146446041,68.4293142496386,10.4645116100342" Connections="394,395" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="246" Mapping="3" Parent="96" XYZ="36.0743503393769,67.0509015155367,7.48376103831582" Connections="395,396" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="247" Mapping="3" Parent="97" XYZ="38.065552412079,67.2827670640914,10.2547790364734" Connections="396,397" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="248" Mapping="3" Parent="98" XYZ="39.9706156506696,70.0772667958144,12.5473275957748" Connections="397,398" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="249" Mapping="3" Parent="99" XYZ="42.4712570830504,68.6423591411346,16.1525921305441" Connections="398,399" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="250" Mapping="3" Parent="100" XYZ="44.9305367710869,66.5392767853904,13.5983280163086" Connections="399,400" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="251" Mapping="3" Parent="101" XYZ="46.3903090330356,62.7925205652059,12.0527265541484" Connections="400,401" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="252" Mapping="3" Parent="102" XYZ="44.1709319870933,59.3457559831087,9.23607978133596" Connections="401,402" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="253" Mapping="3" Parent="103" XYZ="40.9101776430618,60.8127593868675,9.72214269053651" Connections="402,403" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="254" Mapping="3" Parent="104" XYZ="41.4208339808967,63.0207026944417,14.033872236213" Connections="403,404" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="255" Mapping="3" Parent="105" XYZ="42.807954535931,63.2145066221379,18.4164977466585" Connections="404,405" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="256" Mapping="3" Parent="106" XYZ="45.2200192733623,62.081142086801,21.6612499062551" Connections="405,406" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="257" Mapping="3" Parent="107" XYZ="48.3642808062435,62.9941201534934,19.8807667244285" Connections="406,407" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="258" Mapping="3" Parent="108" XYZ="51.4110742897456,64.2987050985821,22.3530892708102" Connections="407,408" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="259" Mapping="3" Parent="109" XYZ="54.2182586851642,65.4368001549683,19.8301523273278" Connections="408,409" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="260" Mapping="3" Parent="110" XYZ="57.1691289813492,63.9414900561,21.8769365669147" Connections="409,410" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="261" Mapping="3" Parent="111" XYZ="57.2668209309413,68.1864010538682,23.2968849611722" Connections="410,411" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="262" Mapping="3" Parent="112" XYZ="59.1161323957107,71.9449242050312,22.9108376557594" Connections="411,412" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="263" Mapping="3" Parent="113" XYZ="63.2744506880683,71.2358948516434,23.9509276226097" Connections="412,413" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="264" Mapping="3" Parent="114" XYZ="66.5940359477222,71.0405303578058,27.2780718857266" Connections="413,414" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="265" Mapping="3" Parent="115" XYZ="64.4417924842232,68.2627875045359,28.6034671350544" Connections="414,415" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="266" Mapping="3" Parent="116" XYZ="59.7595799437474,69.3217339220566,27.9875194237953" Connections="415,416" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="267" Mapping="3" Parent="117" XYZ="56.5261959621973,66.6347057621091,27.9521453665237" Connections="416,417" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="268" Mapping="3" Parent="118" XYZ="59.4922921657898,64.2038698211145,29.1694891998556" Connections="417,418" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="269" Mapping="3" Parent="119" XYZ="62.7741962348228,62.5973298065974,31.2102872687934" Connections="418,419" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="270" Mapping="3" Parent="120" XYZ="61.6196265354643,58.7495107603094,30.4154135655702" Connections="419,420" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="271" Mapping="3" Parent="121" XYZ="60.9458991267591,54.6995815110331,31.6416773214912" Connections="420,421" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="272" Mapping="3" Parent="122" XYZ="65.1508528973619,54.4589292809424,32.2791432178516" Connections="421,422" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="273" Mapping="3" Parent="123" XYZ="69.3559036451974,56.3213757991279,32.2141943008257" Connections="422,423" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="274" Mapping="3" Parent="124" XYZ="71.3937673512386,60.2424262078521,31.5911523618549" Connections="423,424" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="275" Mapping="3" Parent="125" XYZ="73.0726897985926,62.3310741315579,28.1385935985917" Connections="424,425" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="276" Mapping="3" Parent="126" XYZ="77.1457991544478,61.7499257514964,30.068031750258" Connections="425,426" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="277" Mapping="3" Parent="127" XYZ="78.2779043136809,61.766148181394,34.6528310467491" Connections="426,427" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="278" Mapping="3" Parent="128" XYZ="74.6507635269729,63.2611627776403,34.9628411861597" Connections="427,428" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="279" Mapping="3" Parent="129" XYZ="71.2013173311997,65.6503491216486,37.8529117372916" Connections="428,429" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="280" Mapping="3" Parent="130" XYZ="69.571668470613,63.0411327537516,41.0895056444406" Connections="429,430" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="281" Mapping="3" Parent="131" XYZ="68.6700749108167,60.6863348120839,38.1893696908423" Connections="430,431" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="282" Mapping="3" Parent="132" XYZ="65.2488190821619,57.8725964015788,36.0005261171622" Connections="431,432" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="283" Mapping="3" Parent="133" XYZ="61.9222073720154,59.3008209127454,35.4164177027043" Connections="432,433" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="284" Mapping="3" Parent="134" XYZ="63.1661818452374,60.4340741997621,39.8153745220383" Connections="433,434" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="285" Mapping="3" Parent="135" XYZ="65.4681482354963,59.231133052934,43.5989106368898" Connections="434,435" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="286" Mapping="3" Parent="136" XYZ="66.1326272007804,58.5908777321329,48.0522592615964" Connections="435,436" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="287" Mapping="3" Parent="137" XYZ="62.0679671892926,57.8083533540211,47.0047593620661" Connections="436,437" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="288" Mapping="3" Parent="138" XYZ="61.4906333691655,55.2314571653679,44.040622913976" Connections="437,438" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="289" Mapping="3" Parent="139" XYZ="62.9634259709207,53.4552501715874,40.1404433460881" Connections="438,439" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="290" Mapping="3" Parent="140" XYZ="62.8917099222984,51.2679668109013,36.7268947455461" Connections="439,440" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="291" Mapping="3" Parent="141" XYZ="64.8346341665673,48.337968041058,39.3485994442543" Connections="440,441" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="292" Mapping="3" Parent="142" XYZ="64.43649700622,44.9159224187227,41.915282213004" Connections="441,442" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="293" Mapping="3" Parent="143" XYZ="61.725134889234,42.0410407131232,43.9900189843818" Connections="442,443" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="294" Mapping="3" Parent="144" XYZ="58.5919873961807,39.7354398440101,47.1089922383749" Connections="443,444" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="295" Mapping="3" Parent="145" XYZ="56.3216277158557,37.0285955806854,45.5770676973731" Connections="444,445" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="296" Mapping="3" Parent="146" XYZ="52.8673578506696,37.2533567840082,42.5190841723094" Connections="445,446" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="297" Mapping="3" Parent="147" XYZ="53.0512406268642,38.9851421224915,38.8101493779074" Connections="446,447" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="298" Mapping="3" Parent="148" XYZ="56.8722609571924,40.8564389169509,39.2888309313054" Connections="447,448" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="299" Mapping="3" Parent="149" XYZ="58.7351390675502,39.5255964123653,36.1483828014113" Connections="448,449" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="300" Mapping="3" Parent="150" XYZ="57.1296280870054,35.5550363564112,33.7671502058888" Connections="449,450" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="301" Mapping="3" Parent="151" XYZ="57.4706477223972,31.9174815730201,30.8517357406156" Connections="450,451" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="302" Mapping="3" Parent="152" XYZ="61.619758510673,32.2277747268426,32.0431262485495" Connections="451,452" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="303" Mapping="3" Parent="153" XYZ="64.9405877977994,35.2579531503738,33.1059386708487" Connections="452,453" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="304" Mapping="3" Parent="154" XYZ="63.5771057122236,36.1907375519194,36.1736674851321" Connections="453,454" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="305" Mapping="3" Parent="155" XYZ="63.3139252759451,40.9201078813019,36.1056236264202" Connections="454,455" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="306" Mapping="3" Parent="156" XYZ="61.6036940132747,44.7464116694816,37.4184735979207" Connections="455,456" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="307" Mapping="3" Parent="157" XYZ="58.043316863025,47.8953377943744,37.0029134246439" Connections="456,457" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="308" Mapping="3" Parent="158" XYZ="57.9576236321863,52.4371564103923,36.0929098014961" Connections="457,458" ForcefieldType="N0" BeadType="461"/>
+						<Bead ID="309" Mapping="3" Parent="159" XYZ="58.4795065755733,56.2184235872093,38.0164339971465" Connections="458" ForcefieldType="P4">
+							<BeadType ID="462" Name="SLE150" Color="103,86,63,255" Radius="2.110143" Mass="87.098"/>
+						</Bead>
+						<BeadConnector ID="310" Mapping="3" Parent="9" Connects="161,160"/>
+						<BeadConnector ID="311" Mapping="3" Parent="9" Connects="162,161"/>
+						<BeadConnector ID="312" Mapping="3" Parent="9" Connects="163,162"/>
+						<BeadConnector ID="313" Mapping="3" Parent="9" Connects="164,163"/>
+						<BeadConnector ID="314" Mapping="3" Parent="9" Connects="165,164"/>
+						<BeadConnector ID="315" Mapping="3" Parent="9" Connects="166,165"/>
+						<BeadConnector ID="316" Mapping="3" Parent="9" Connects="167,166"/>
+						<BeadConnector ID="317" Mapping="3" Parent="9" Connects="168,167"/>
+						<BeadConnector ID="318" Mapping="3" Parent="9" Connects="169,168"/>
+						<BeadConnector ID="319" Mapping="3" Parent="9" Connects="170,169"/>
+						<BeadConnector ID="320" Mapping="3" Parent="9" Connects="171,170"/>
+						<BeadConnector ID="321" Mapping="3" Parent="9" Connects="172,171"/>
+						<BeadConnector ID="322" Mapping="3" Parent="9" Connects="173,172"/>
+						<BeadConnector ID="323" Mapping="3" Parent="9" Connects="174,173"/>
+						<BeadConnector ID="324" Mapping="3" Parent="9" Connects="175,174"/>
+						<BeadConnector ID="325" Mapping="3" Parent="9" Connects="176,175"/>
+						<BeadConnector ID="326" Mapping="3" Parent="9" Connects="177,176"/>
+						<BeadConnector ID="327" Mapping="3" Parent="9" Connects="178,177"/>
+						<BeadConnector ID="328" Mapping="3" Parent="9" Connects="179,178"/>
+						<BeadConnector ID="329" Mapping="3" Parent="9" Connects="180,179"/>
+						<BeadConnector ID="330" Mapping="3" Parent="9" Connects="181,180"/>
+						<BeadConnector ID="331" Mapping="3" Parent="9" Connects="182,181"/>
+						<BeadConnector ID="332" Mapping="3" Parent="9" Connects="183,182"/>
+						<BeadConnector ID="333" Mapping="3" Parent="9" Connects="184,183"/>
+						<BeadConnector ID="334" Mapping="3" Parent="9" Connects="185,184"/>
+						<BeadConnector ID="335" Mapping="3" Parent="9" Connects="186,185"/>
+						<BeadConnector ID="336" Mapping="3" Parent="9" Connects="187,186"/>
+						<BeadConnector ID="337" Mapping="3" Parent="9" Connects="188,187"/>
+						<BeadConnector ID="338" Mapping="3" Parent="9" Connects="189,188"/>
+						<BeadConnector ID="339" Mapping="3" Parent="9" Connects="190,189"/>
+						<BeadConnector ID="340" Mapping="3" Parent="9" Connects="191,190"/>
+						<BeadConnector ID="341" Mapping="3" Parent="9" Connects="192,191"/>
+						<BeadConnector ID="342" Mapping="3" Parent="9" Connects="193,192"/>
+						<BeadConnector ID="343" Mapping="3" Parent="9" Connects="194,193"/>
+						<BeadConnector ID="344" Mapping="3" Parent="9" Connects="195,194"/>
+						<BeadConnector ID="345" Mapping="3" Parent="9" Connects="196,195"/>
+						<BeadConnector ID="346" Mapping="3" Parent="9" Connects="197,196"/>
+						<BeadConnector ID="347" Mapping="3" Parent="9" Connects="198,197"/>
+						<BeadConnector ID="348" Mapping="3" Parent="9" Connects="199,198"/>
+						<BeadConnector ID="349" Mapping="3" Parent="9" Connects="200,199"/>
+						<BeadConnector ID="350" Mapping="3" Parent="9" Connects="201,200"/>
+						<BeadConnector ID="351" Mapping="3" Parent="9" Connects="202,201"/>
+						<BeadConnector ID="352" Mapping="3" Parent="9" Connects="203,202"/>
+						<BeadConnector ID="353" Mapping="3" Parent="9" Connects="204,203"/>
+						<BeadConnector ID="354" Mapping="3" Parent="9" Connects="205,204"/>
+						<BeadConnector ID="355" Mapping="3" Parent="9" Connects="206,205"/>
+						<BeadConnector ID="356" Mapping="3" Parent="9" Connects="207,206"/>
+						<BeadConnector ID="357" Mapping="3" Parent="9" Connects="208,207"/>
+						<BeadConnector ID="358" Mapping="3" Parent="9" Connects="209,208"/>
+						<BeadConnector ID="359" Mapping="3" Parent="9" Connects="210,209"/>
+						<BeadConnector ID="360" Mapping="3" Parent="9" Connects="211,210"/>
+						<BeadConnector ID="361" Mapping="3" Parent="9" Connects="212,211"/>
+						<BeadConnector ID="362" Mapping="3" Parent="9" Connects="213,212"/>
+						<BeadConnector ID="363" Mapping="3" Parent="9" Connects="214,213"/>
+						<BeadConnector ID="364" Mapping="3" Parent="9" Connects="215,214"/>
+						<BeadConnector ID="365" Mapping="3" Parent="9" Connects="216,215"/>
+						<BeadConnector ID="366" Mapping="3" Parent="9" Connects="217,216"/>
+						<BeadConnector ID="367" Mapping="3" Parent="9" Connects="218,217"/>
+						<BeadConnector ID="368" Mapping="3" Parent="9" Connects="219,218"/>
+						<BeadConnector ID="369" Mapping="3" Parent="9" Connects="220,219"/>
+						<BeadConnector ID="370" Mapping="3" Parent="9" Connects="221,220"/>
+						<BeadConnector ID="371" Mapping="3" Parent="9" Connects="222,221"/>
+						<BeadConnector ID="372" Mapping="3" Parent="9" Connects="223,222"/>
+						<BeadConnector ID="373" Mapping="3" Parent="9" Connects="224,223"/>
+						<BeadConnector ID="374" Mapping="3" Parent="9" Connects="225,224"/>
+						<BeadConnector ID="375" Mapping="3" Parent="9" Connects="226,225"/>
+						<BeadConnector ID="376" Mapping="3" Parent="9" Connects="227,226"/>
+						<BeadConnector ID="377" Mapping="3" Parent="9" Connects="228,227"/>
+						<BeadConnector ID="378" Mapping="3" Parent="9" Connects="229,228"/>
+						<BeadConnector ID="379" Mapping="3" Parent="9" Connects="230,229"/>
+						<BeadConnector ID="380" Mapping="3" Parent="9" Connects="231,230"/>
+						<BeadConnector ID="381" Mapping="3" Parent="9" Connects="232,231"/>
+						<BeadConnector ID="382" Mapping="3" Parent="9" Connects="233,232"/>
+						<BeadConnector ID="383" Mapping="3" Parent="9" Connects="234,233"/>
+						<BeadConnector ID="384" Mapping="3" Parent="9" Connects="235,234"/>
+						<BeadConnector ID="385" Mapping="3" Parent="9" Connects="236,235"/>
+						<BeadConnector ID="386" Mapping="3" Parent="9" Connects="237,236"/>
+						<BeadConnector ID="387" Mapping="3" Parent="9" Connects="238,237"/>
+						<BeadConnector ID="388" Mapping="3" Parent="9" Connects="239,238"/>
+						<BeadConnector ID="389" Mapping="3" Parent="9" Connects="240,239"/>
+						<BeadConnector ID="390" Mapping="3" Parent="9" Connects="241,240"/>
+						<BeadConnector ID="391" Mapping="3" Parent="9" Connects="242,241"/>
+						<BeadConnector ID="392" Mapping="3" Parent="9" Connects="243,242"/>
+						<BeadConnector ID="393" Mapping="3" Parent="9" Connects="244,243"/>
+						<BeadConnector ID="394" Mapping="3" Parent="9" Connects="245,244"/>
+						<BeadConnector ID="395" Mapping="3" Parent="9" Connects="246,245"/>
+						<BeadConnector ID="396" Mapping="3" Parent="9" Connects="247,246"/>
+						<BeadConnector ID="397" Mapping="3" Parent="9" Connects="248,247"/>
+						<BeadConnector ID="398" Mapping="3" Parent="9" Connects="249,248"/>
+						<BeadConnector ID="399" Mapping="3" Parent="9" Connects="250,249"/>
+						<BeadConnector ID="400" Mapping="3" Parent="9" Connects="251,250"/>
+						<BeadConnector ID="401" Mapping="3" Parent="9" Connects="252,251"/>
+						<BeadConnector ID="402" Mapping="3" Parent="9" Connects="253,252"/>
+						<BeadConnector ID="403" Mapping="3" Parent="9" Connects="254,253"/>
+						<BeadConnector ID="404" Mapping="3" Parent="9" Connects="255,254"/>
+						<BeadConnector ID="405" Mapping="3" Parent="9" Connects="256,255"/>
+						<BeadConnector ID="406" Mapping="3" Parent="9" Connects="257,256"/>
+						<BeadConnector ID="407" Mapping="3" Parent="9" Connects="258,257"/>
+						<BeadConnector ID="408" Mapping="3" Parent="9" Connects="259,258"/>
+						<BeadConnector ID="409" Mapping="3" Parent="9" Connects="260,259"/>
+						<BeadConnector ID="410" Mapping="3" Parent="9" Connects="261,260"/>
+						<BeadConnector ID="411" Mapping="3" Parent="9" Connects="262,261"/>
+						<BeadConnector ID="412" Mapping="3" Parent="9" Connects="263,262"/>
+						<BeadConnector ID="413" Mapping="3" Parent="9" Connects="264,263"/>
+						<BeadConnector ID="414" Mapping="3" Parent="9" Connects="265,264"/>
+						<BeadConnector ID="415" Mapping="3" Parent="9" Connects="266,265"/>
+						<BeadConnector ID="416" Mapping="3" Parent="9" Connects="267,266"/>
+						<BeadConnector ID="417" Mapping="3" Parent="9" Connects="268,267"/>
+						<BeadConnector ID="418" Mapping="3" Parent="9" Connects="269,268"/>
+						<BeadConnector ID="419" Mapping="3" Parent="9" Connects="270,269"/>
+						<BeadConnector ID="420" Mapping="3" Parent="9" Connects="271,270"/>
+						<BeadConnector ID="421" Mapping="3" Parent="9" Connects="272,271"/>
+						<BeadConnector ID="422" Mapping="3" Parent="9" Connects="273,272"/>
+						<BeadConnector ID="423" Mapping="3" Parent="9" Connects="274,273"/>
+						<BeadConnector ID="424" Mapping="3" Parent="9" Connects="275,274"/>
+						<BeadConnector ID="425" Mapping="3" Parent="9" Connects="276,275"/>
+						<BeadConnector ID="426" Mapping="3" Parent="9" Connects="277,276"/>
+						<BeadConnector ID="427" Mapping="3" Parent="9" Connects="278,277"/>
+						<BeadConnector ID="428" Mapping="3" Parent="9" Connects="279,278"/>
+						<BeadConnector ID="429" Mapping="3" Parent="9" Connects="280,279"/>
+						<BeadConnector ID="430" Mapping="3" Parent="9" Connects="281,280"/>
+						<BeadConnector ID="431" Mapping="3" Parent="9" Connects="282,281"/>
+						<BeadConnector ID="432" Mapping="3" Parent="9" Connects="283,282"/>
+						<BeadConnector ID="433" Mapping="3" Parent="9" Connects="284,283"/>
+						<BeadConnector ID="434" Mapping="3" Parent="9" Connects="285,284"/>
+						<BeadConnector ID="435" Mapping="3" Parent="9" Connects="286,285"/>
+						<BeadConnector ID="436" Mapping="3" Parent="9" Connects="287,286"/>
+						<BeadConnector ID="437" Mapping="3" Parent="9" Connects="288,287"/>
+						<BeadConnector ID="438" Mapping="3" Parent="9" Connects="289,288"/>
+						<BeadConnector ID="439" Mapping="3" Parent="9" Connects="290,289"/>
+						<BeadConnector ID="440" Mapping="3" Parent="9" Connects="291,290"/>
+						<BeadConnector ID="441" Mapping="3" Parent="9" Connects="292,291"/>
+						<BeadConnector ID="442" Mapping="3" Parent="9" Connects="293,292"/>
+						<BeadConnector ID="443" Mapping="3" Parent="9" Connects="294,293"/>
+						<BeadConnector ID="444" Mapping="3" Parent="9" Connects="295,294"/>
+						<BeadConnector ID="445" Mapping="3" Parent="9" Connects="296,295"/>
+						<BeadConnector ID="446" Mapping="3" Parent="9" Connects="297,296"/>
+						<BeadConnector ID="447" Mapping="3" Parent="9" Connects="298,297"/>
+						<BeadConnector ID="448" Mapping="3" Parent="9" Connects="299,298"/>
+						<BeadConnector ID="449" Mapping="3" Parent="9" Connects="300,299"/>
+						<BeadConnector ID="450" Mapping="3" Parent="9" Connects="301,300"/>
+						<BeadConnector ID="451" Mapping="3" Parent="9" Connects="302,301"/>
+						<BeadConnector ID="452" Mapping="3" Parent="9" Connects="303,302"/>
+						<BeadConnector ID="453" Mapping="3" Parent="9" Connects="304,303"/>
+						<BeadConnector ID="454" Mapping="3" Parent="9" Connects="305,304"/>
+						<BeadConnector ID="455" Mapping="3" Parent="9" Connects="306,305"/>
+						<BeadConnector ID="456" Mapping="3" Parent="9" Connects="307,306"/>
+						<BeadConnector ID="457" Mapping="3" Parent="9" Connects="308,307"/>
+						<BeadConnector ID="458" Mapping="3" Parent="9" Connects="309,308"/>
+						<PointGroup ID="4" Parent="2" Name="Default Point Group" AVector="1,0,0" BVector="0,1,0" CVector="0,0,1" OrientationBase="A along X, B along Y and C along Z" Centering="13" Lattice="25" GroupName="Default Point Group" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,0,0,0,0,0" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="2" LongName=" " SchoenfliesName=" " System=" " IsContinuous="0"/>
+						<SpaceGroup ID="6" Parent="2" Children="459" Name="P1" AVector="80.77,0,0" BVector="0,89.38,0" CVector="0,0,67.41" Visible="0" OrientationBase="A along X, B in XY plane" Centering="3D Primitive-Centered" Lattice="3D Triclinic" GroupName="P1" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,1,0,1,0,1" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="0" ITNumber="1" LongName="P 1" Qualifier="Origin-1" SchoenfliesName="C1-1" System="Triclinic" Class="1"/>
+						<ReciprocalLattice3D ID="459" Parent="6" Visible="0"/>
+					</IdentityMapping>
+					<MappingRepairs NumRepairs="0"/>
+				</MappingFamily>
+			</MappingSet>
+			<OldDefinition ID="463" OldDefinition="6"/>
+		</SymmetrySystem>
+	</AtomisticTreeRoot>
+</XSD>
