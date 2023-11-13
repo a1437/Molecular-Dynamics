@@ -1,0 +1,62 @@
+2-azaniumylacetate
+  CDK    2/12/10,15:26
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    0.2847    0.0007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4298   -0.4118    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9992   -0.4118    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2847    0.8257    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1442    0.0007    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0 
+  4  1  2  0  0  0  0 
+  3  1  1  0  0  0  0 
+  2  5  1  0  0  0  0 
+M  CHG  1   3  -1
+M  CHG  1   5   1
+M  END
+> <ID>
+CHEBI:57305
+
+> <NAME>
+glycine zwitterion
+
+> <DEFINITION>
+An amino acid zwitterion arising from transfer of a proton from the carboxy to the amino group of glycine.
+
+> <STAR>
+3
+
+> <SYNONYM>
+glycine
+
+> <IUPAC_NAME>
+2-azaniumylacetate
+
+> <FORMULA>
+C2H5NO2
+
+> <MASS>
+75.06660
+
+> <MONOISOTOPIC_MASS>
+75.03203
+
+> <CHARGE>
+0
+
+> <SMILES>
+[NH3+]CC([O-])=O
+
+> <INCHI>
+InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)
+
+> <INCHIKEY>
+DHMQDGOQFOQNFH-UHFFFAOYSA-N
+
+> <GMELIN_REGISTRY_NUMBER>
+1807
+
+> <METACYC_ACCESSION>
+GLY
+
+$$$$
