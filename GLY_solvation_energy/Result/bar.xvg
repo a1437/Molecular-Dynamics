@@ -1,0 +1,36 @@
+# This file was created Mon Nov 13 18:44:59 2023
+# Created by:
+#                   :-) GROMACS - gmx bar, 2021.2-MODIFIED (-:
+# 
+# Executable:   G:\kml\Gromacs_2021_2\bin\gmx.exe
+# Data prefix:  G:\kml\Gromacs_2021_2
+# Working dir:  G:\kml\Gromacs_2021_2\ada
+# Command line:
+#   gmx bar -f mdlambda0.xvg mdlambda1.xvg mdlambda2.xvg mdlambda3.xvg mdlambda4.xvg mdlambda5.xvg mdlambda6.xvg mdlambda7.xvg mdlambda8.xvg mdlambda9.xvg mdlambda10.xvg mdlambda11.xvg mdlambda12.xvg mdlambda13.xvg mdlambda14.xvg mdlambda15.xvg mdlambda16.xvg mdlambda17.xvg mdlambda18.xvg mdlambda19.xvg mdlambda20.xvg -o -oi
+# gmx bar is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 0.500  0.49  0.00
+ 1.500  0.48  0.00
+ 2.500  0.47  0.00
+ 3.500  0.44  0.00
+ 4.500  0.42  0.00
+ 5.500  0.40  0.00
+ 6.500  0.36  0.00
+ 7.500  0.31  0.01
+ 8.500  0.26  0.00
+ 9.500  0.20  0.01
+10.500  0.12  0.01
+11.500 -0.01  0.01
+12.500 -0.19  0.01
+13.500 -0.46  0.03
+14.500 -0.79  0.02
+15.500 -1.03  0.02
+16.500 -0.99  0.02
+17.500 -0.73  0.01
+18.500 -0.43  0.01
